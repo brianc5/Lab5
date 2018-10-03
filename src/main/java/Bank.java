@@ -29,6 +29,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return true;
     }
 
     /**
@@ -45,13 +46,14 @@ public class Bank {
         /*
          * Implement this function
          */
+        return true;
     }
 
     /**
      * Transfer money from one account to another.
      * <p>
      * Transfer the amount of money from one back account to another. Returns true if transaction is
-     * successful, false otherwise.
+     * successful, false otherwise.k
      *
      * @param source bank account to transfer money from.
      * @param destination bank account to transfer money to.
@@ -64,6 +66,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return true;
     }
 
     /**
@@ -89,6 +92,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return 0;
     }
 
     /**

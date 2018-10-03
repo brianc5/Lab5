@@ -8,7 +8,6 @@ import java.util.Random;
  * @see <a href="https://cs125.cs.illinois.edu/lab/5/">Lab 5 Description</a>
  */
 public class BankAccount {
-
     /*
      * You may want to use this to distinguish between different kinds of accounts.
      */
@@ -30,9 +29,43 @@ public class BankAccount {
         /*
          * Implement this function
          */
+        accountType = accountCategory;
+        ownerName = name;
     }
 
     /*
      * Implement getters and setters as appropriate for private variables.
      */
+
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public String getOwnerName() {
+        return ownerName;
+    }
+
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
+    }
+
+    public double getInterestEarned() {
+        return interestEarned;
+    }
+
+    public void setInterestEarned(double interestEarned) {
+        this.interestEarned = interestEarned;
+    }
+
+    public double getAccountBalance() {
+        return accountBalance;
+    }
+
+    public void setAccountBalance(double accountBalance) {
+        this.accountBalance = accountBalance;
+    }
 }
